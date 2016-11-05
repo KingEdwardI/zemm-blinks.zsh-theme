@@ -30,9 +30,9 @@ ZSH_THEME_HG_PROMPT_DIRTY=" %{%F{red}%}*%{%f%k%b%}"
 ZSH_THEME_HG_PROMPT_CLEAN=""
 
 PROMPT='%{%f%k%b%}
-$FG[093]%n%{%B%F{blue}%}$FG[052]〔∵〕$FG[064]▌$FG[178]%{%b%}%~$FG[064]▐ $(_prompt_info)%E%{%f%k%b%}
-%{%}$(_prompt_char)%{%} $FG[093]%{%B%}※≫【%{%b%F{white}%}'
+$FG[093]%n%{%B%F{blue}%}$FG[052]〔∵〕$FG[064]【$FG[178]%{%b%}%~$FG[064]】$(_prompt_info)%E%{%f%k%b%}
+%{%}$(_prompt_char)%{%} $FG[093]%{%B%}※≫ ⑀ %{%b%F{white}%}'
 
-RPROMPT='$FG[052]〔∵〕$FG[112]%@ ▣ %D{%Y | %m | %d}%{%f%k%b%}'
+RPROMPT='$FG[052]〔∵〕$FG[112]%@ ▣ %D{%Y ⋮ %m ⋮ %d}%{%f%k%b%}'
 
 
