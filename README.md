@@ -1,17 +1,17 @@
 # Introduction
-This is my customizations on the Blinks theme that comes with Oh My ZSH. It makes the following changes:
+These are some customizations I've made from <a href="https://github.com/aranasaurus/zemm-blinks.zsh-theme">aranasaurus/zemm-blinks.zsh-theme</a>
 
-  * Replace the history counter on the right side of the prompt with the date/time.
-  * Adds Mercurial support similar to the git support that the original uses. Minimally it will show the Mercurial symbol on the left side of the prompt,
-    but if you also have my changes to the mercurial zsh plugin \([see below](#mercurial-support)\), it will flag when you're in a dirty repo, and show the name of the current branch.
-  * Makes the prompt display username\[Predator Reticle\]hostname
+Changes
+
+* Date format from full text to ISO format
+* Removed Mercurial support (I just don't use it)
+* Changed colorscheme
+* removed hostname
+* various styling tweaks and ascii chars
 
 ## Instructions
-To use, copy the zemm-blinks.zsh-theme file into your $ZSH\_CUSTOM directory and set your theme to zemm-blinks in your .zshrc.
+To use, copy the xcalibr-blinks.zsh-theme file into your $ZSH\_CUSTOM directory and set your theme to xcalibr-blinks in your .zshrc.
 
-### Mercurial Support
-If you'd like mercurial support similar to the git support:
+#### Antigen
 
-  1. Copy the mercurial directory from this repo into your $ZSH\_CUSTOM/plugins/ directory
-  2. Add 'mercurial' to your plugins in .zshrc.
-
+```$ antigen theme KingEdwardI/zemm-blinks.zsh-theme xcalibr-blinks```
