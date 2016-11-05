@@ -28,8 +28,8 @@ ZSH_THEME_GIT_PROMPT_CLEAN=" %{%B%}$FG[046]✓%{%f%k%b%}"
 
 # Full ZSH prompt - left
 PROMPT='%{%f%k%b%}
-$FG[093]%n%{%B%F{blue}%}$FG[052] [Ꮬ] $FG[064]【$FG[172]%{%b%}%~$FG[064]】$(_prompt_info)%E%{%f%k%b%}
-%{%}$(_prompt_char)%{%} $FG[093]%{%B%}※≫%{%B%}$FG[070]⑆  %{%b%F{white}%}'
+$FG[093]%n%{%B%F{blue}%}$FG[052] [Ꮬ] $FG[064]【%{%b%}$FG[172]%~$FG[064]】$(_prompt_info)%E%{%f%k%b%}
+%{%}$(_prompt_char)%{%} %{%B%}$FG[093]※≫$FG[070]⑆  %{%b%F{white}%}'
 
 # ZSH prompt - right
 RPROMPT='$FG[052] [Ꮬ] $FG[112]%@ இ  %D{%Y ⋮ %m ⋮ %d} %{%f%k%b%}'
