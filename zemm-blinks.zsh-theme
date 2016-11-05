@@ -20,9 +20,9 @@ function _prompt_info() {
 }
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" [%{%B%F{blue}%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{%f%k%b%B%F{green}%}]"
-ZSH_THEME_GIT_PROMPT_DIRTY=" %{%F{red}%}*%{%f%k%b%}"
-ZSH_THEME_GIT_PROMPT_CLEAN=""
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{%f%k%b%B%}$FG[064]]"
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{%B%}$FG[196]✗%{%f%k%b%}"
+ZSH_THEME_GIT_PROMPT_CLEAN=" %{%B%}$FG[046]✓%{%f%k%b%}"
 
 ZSH_THEME_HG_PROMPT_PREFIX=" [%{%B%F{blue}%}"
 ZSH_THEME_HG_PROMPT_SUFFIX="%{%f%k%b%B%F{green}%}]"
@@ -30,9 +30,9 @@ ZSH_THEME_HG_PROMPT_DIRTY=" %{%F{red}%}*%{%f%k%b%}"
 ZSH_THEME_HG_PROMPT_CLEAN=""
 
 PROMPT='%{%f%k%b%}
-$FG[093]%n%{%B%F{blue}%}$FG[052] [∴] $FG[064]▌$FG[178]%{%b%}%~$FG[064]▐ $(_prompt_info)%E%{%f%k%b%}
-%{%}$(_prompt_char)%{%} $FG[093]%{%B%}※≫ %{%b%F{white}%}'
+$FG[093]%n%{%B%F{blue}%}$FG[052]〔∵〕$FG[064]▌$FG[178]%{%b%}%~$FG[064]▐ $(_prompt_info)%E%{%f%k%b%}
+%{%}$(_prompt_char)%{%} $FG[093]%{%B%}※≫【%{%b%F{white}%}'
 
-RPROMPT='$FG[052]∵ $FG[118]%@ 〓 %D{%Y | %m | %d}%{%f%k%b%}'
+RPROMPT='$FG[052]〔∵〕$FG[112]%@ ▣ %D{%Y | %m | %d}%{%f%k%b%}'
 
 
