@@ -32,6 +32,6 @@ $FG[093]%n%{%B%F{blue}%}$FG[052] [Ꮬ] $FG[064]【%{%b%}$FG[172]%~$FG[064]】$(_
 %{%}$(_prompt_char)%{%} %{%B%}$FG[093]※≫$FG[070]⑆  %{%b%F{white}%}'
 
 # ZSH prompt - right
-RPROMPT='$FG[052] [Ꮬ] $FG[112]%@ இ  %D{%Y ⋮ %m ⋮ %d} %{%f%k%b%}'
+RPROMPT='$FG[052] [Ꮬ] $FG[112]%@ இ  %D{%Y⋮%m⋮%d} %{%f%k%b%}'
 
 # இ  ☯ 
