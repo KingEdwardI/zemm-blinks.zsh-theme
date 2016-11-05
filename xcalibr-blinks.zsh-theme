@@ -7,7 +7,7 @@ function _prompt_char() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
     echo "$FG[027]Ѫ%{%f%k%b%}"
   else
-    echo '$FG[027]∞%{%f%k%b%}'
+    echo "$FG[027]∞%{%f%k%b%}"
   fi
 }
 
@@ -32,6 +32,6 @@ $FG[093]%n%{%B%F{blue}%}$FG[052] [Ꮬ] $FG[064]【$FG[172]%{%b%}%~$FG[064]】$(_
 %{%}$(_prompt_char)%{%} $FG[093]%{%B%}※≫%{%B%}$FG[070]⑆  %{%b%F{white}%}'
 
 # ZSH prompt - right
-RPROMPT='$FG[052] [Ꮬ] $FG[112]%@ ▣  %D{%Y ⋮ %m ⋮ %d} %{%f%k%b%}'
+RPROMPT='$FG[052] [Ꮬ] $FG[112]%@ இ  %D{%Y ⋮ %m ⋮ %d} %{%f%k%b%}'
 
 # இ  ☯ 
