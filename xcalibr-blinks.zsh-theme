@@ -2,7 +2,7 @@
 # Ryan Arana's take on the Blinks theme - https://github.com/cadetZemm/zemm-blinks.zsh-theme
 # Original Blinks theme is here: https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/blinks.zsh-theme
 
-# changes depending on if you're in a Git or Mercurial folder
+# changes depending on if you're in a Git or normal folder
 function _prompt_char() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
     echo "$FG[027]Ѫ%{%f%k%b%}"
@@ -15,8 +15,6 @@ function _prompt_char() {
 function _prompt_info() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
     echo $(git_prompt_info)
-  elif $(hg root &> /dev/null); then
-    echo $(hg_prompt_info 2> /dev/null) || ""
   fi
 }
 
