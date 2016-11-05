@@ -3,11 +3,11 @@
 
 function _prompt_char() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
-    echo "%{%F{blue}%}±%{%f%k%b%}"
-  elif $(hg root > /dev/null 2>&1); then
     echo "%{%F{blue}%}☿%{%f%k%b%}"
+  elif $(hg root > /dev/null 2>&1); then
+    echo "%{%F{blue}%}±%{%f%k%b%}"
   else
-    echo ' '
+    echo '∞'
   fi
 }
 
@@ -30,7 +30,9 @@ ZSH_THEME_HG_PROMPT_DIRTY=" %{%F{red}%}*%{%f%k%b%}"
 ZSH_THEME_HG_PROMPT_CLEAN=""
 
 PROMPT='%{%f%k%b%}
-%{%B%F{green}%}%n%{%B%F{blue}%}%{%F{red}%}[∴]%{%B%F{cyan}%}%m%{%B%F{green}%} %{%b%F{yellow}%}%~%{%B%F{green}%}$(_prompt_info)%E%{%f%k%b%}
-%{%}$(_prompt_char)%{%} %#%{%f%k%b%} '
+%{%B%F{green}%}%n%{%B%F{blue}%}%{%F{red}%}[∴] ▌%{%B%F{green}%} %{%b%F{yellow}%}%~ ▐%{%B%F{green}%}$(_prompt_info)%E%{%f%k%b%}
+%{%}$(_prompt_char)%{%} ※≫ {%f%k%b%} '
 
-RPROMPT='%{%B%F{cyan}%}%@ - %D{%Y | %m | %d}%{%f%k%b%}'
+RPROMPT='∵ %{%B%F{cyan}%}%@ 〓 %D{%Y | %m | %d}%{%f%k%b%}'
+
+
