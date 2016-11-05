@@ -30,9 +30,9 @@ ZSH_THEME_HG_PROMPT_DIRTY=" %{%F{red}%}*%{%f%k%b%}"
 ZSH_THEME_HG_PROMPT_CLEAN=""
 
 PROMPT='%{%f%k%b%}
-%{%B%F{green}%}%n%{%B%F{blue}%}%{%F{red}%} [∴] %{%B%F{green}%}▌%{%b%F{yellow}%}%~%{%B%F{green}%}▐ $(_prompt_info)%E%{%f%k%b%}
-%{%}$(_prompt_char)%{%} ※≫ '
+%{%B%F{magenta}%}%n%{%B%F{blue}%}%{%F{red}%} [∴] %{%B%F{green}%}▌%{%b%F{yellow}%}%~%{%B%F{green}%}▐ $(_prompt_info)%E%{%f%k%b%}
+%{%}$(_prompt_char)%{%} %{%B%F{magenta}%}※≫ '
 
-RPROMPT='∵ %{%B%F{cyan}%}%@ 〓 %D{%Y | %m | %d}%{%f%k%b%}'
+RPROMPT='%{%F{red}%}∵ %{%B%F{cyan}%}%@ 〓 %D{%Y | %m | %d}%{%f%k%b%}'
 
 
