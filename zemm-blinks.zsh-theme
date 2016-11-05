@@ -33,4 +33,4 @@ PROMPT='%{%f%k%b%}
 %{%B%F{green}%}%n%{%B%F{blue}%}%{%F{red}%}[∴]%{%B%F{cyan}%}%m%{%B%F{green}%} %{%b%F{yellow}%}%~%{%B%F{green}%}$(_prompt_info)%E%{%f%k%b%}
 %{%}$(_prompt_char)%{%} %#%{%f%k%b%} '
 
-RPROMPT='%{%B%F{cyan}%}%@ - %D%{%f%k%b%}'
+RPROMPT='%{%B%F{cyan}%}%@ - %D{%Y | %m | %d}%{%f%k%b%}'
