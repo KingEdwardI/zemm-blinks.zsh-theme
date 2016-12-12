@@ -14,7 +14,7 @@ To use, copy the xcalibr-blinks.zsh-theme file into your $ZSH\_CUSTOM directory 
 
 #### Antigen
 
-```$ antigen theme KingEdwardI/zemm-blinks.zsh-theme xcalibr-blinks```
+`$ antigen theme KingEdwardI/zemm-blinks.zsh-theme xcalibr-blinks`
 
 #### Oh My ZSH
 
@@ -22,4 +22,4 @@ clone this into .oh-my-zsh/themes and move the theme file out of the folder
 
 In the oh-my-zsh rc file add the line
 
-```ZSH-THEME="xcalibr-blinks"```
+`ZSH-THEME="xcalibr-blinks"`
