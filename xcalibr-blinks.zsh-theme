@@ -19,8 +19,8 @@ function _prompt_info() {
 }
 
 # git prompt styling
-ZSH_THEME_GIT_PROMPT_PREFIX=" \{\{%{%B%F{blue}%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{%f%k%b%B%}$FG[064]\}\}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" {{%{%B%F{blue}%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{%f%k%b%B%}$FG[064]}}"
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{%B%}$FG[196]✗%{%f%k%b%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{%B%}$FG[046]✓%{%f%k%b%}"
 
